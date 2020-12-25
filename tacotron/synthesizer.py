@@ -38,7 +38,7 @@ class Synthesizer:
 			self.targets = targets
 			self.text_phoneme_table=self.model.phoneme_embedding_table
 			self.speaker_table = self.model.speaker_embedding_table
-			self.language_table = self.model.language_embedding_table
+			# self.language_table = self.model.language_embedding_table
 
 
 		self.gta = gta
